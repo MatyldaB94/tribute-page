@@ -1,0 +1,46 @@
+.imgPoznan {
+    width: 200px;
+    height: 300px;
+    /* jeśli do margin podamy 2 arumenty pierwszy odpowida za margines góry i dolny, a drugi za lewo prawo. 
+    Jesli dodamy 4 argumenty idziemyL góra, prawo, dół, lewo*/
+    
+    margin: 0px auto 0px auto; 
+    display: block;
+}
+.container {
+    background-color: blue;
+    background: linear-gradient(90deg, rgba(8,0,140,0.5522584033613445) 0%, rgba(0,254,255,1) 100%);
+    width: 800px;
+    margin: 0px auto;
+    padding: 30px;
+}
+.imgKoziolki {
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    display: block;
+}
+.headerImg {
+    width: 100px;
+    height: 50px;
+    padding-top: 30px;
+}
+.title {
+    background-color: chartreuse;
+    justify-content: space-between;
+    display: flex;
+    width: 800px;
+    height: 100px;
+    margin: 0px auto;
+    padding: 0px 30px;
+}
+.video {
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    display: block;
+}
+.tiltePoznan {
+    font-size: 80px;
+    margin: 0px;
+}
