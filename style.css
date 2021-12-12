@@ -1,6 +1,6 @@
 .imgPoznan {
-    width: 200px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     /* jeśli do margin podamy 2 arumenty pierwszy odpowida za margines góry i dolny, a drugi za lewo prawo. 
     Jesli dodamy 4 argumenty idziemyL góra, prawo, dół, lewo*/
     
@@ -8,7 +8,7 @@
     display: block;
 }
 .container {
-    background-color: blue;
+    background-color: rgb(16, 16, 209);
     background: linear-gradient(90deg, rgba(8,0,140,0.5522584033613445) 0%, rgba(0,254,255,1) 100%);
     width: 800px;
     margin: 0px auto;
@@ -21,12 +21,13 @@
     display: block;
 }
 .headerImg {
-    width: 100px;
-    height: 50px;
-    padding-top: 30px;
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
 }
 .title {
-    background-color: chartreuse;
+    background-color: rgb(209, 16, 97);
+    background: linear-gradient(90deg, rgba(245, 5, 105, 0.552) 0%, rgb(235, 228, 234) 100%);
     justify-content: space-between;
     display: flex;
     width: 800px;
