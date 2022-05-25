@@ -1,33 +1,34 @@
 .imgPoznan {
-    width: 600px;
-    height: 400px;
-    /* jeśli do margin podamy 2 arumenty pierwszy odpowida za margines góry i dolny, a drugi za lewo prawo. 
-    Jesli dodamy 4 argumenty idziemyL góra, prawo, dół, lewo*/
-    
-    margin: 0px auto 0px auto; 
+    max-width: 100%;
     display: block;
+    height: auto;
+    margin: 0 auto;
 }
+
 .container {
-    background-color: rgb(16, 16, 209);
-    background: linear-gradient(90deg, rgba(8,0,140,0.5522584033613445) 0%, rgba(0,254,255,1) 100%);
+    background-color: rgb(160, 2, 15);
+    background: linear-gradient(90deg, rgba(240, 173, 30, 0.552) 0%, rgb(207, 2, 2) 100%);
     width: 800px;
     margin: 0px auto;
     padding: 30px;
 }
+
 .imgKoziolki {
-    width: 300px;
+    max-width: 100%;
     height: 200px;
     margin: 30px auto;
     display: block;
 }
+
 .headerImg {
     width: 80px;
     height: 80px;
     padding-top: 10px;
 }
+
 .title {
-    background-color: rgb(209, 16, 97);
-    background: linear-gradient(90deg, rgba(245, 5, 105, 0.552) 0%, rgb(235, 228, 234) 100%);
+    background-color: rgb(107, 3, 12);
+    background: linear-gradient(90deg, rgba(248, 12, 71) 0%, rgb(224, 248, 12) 100%);
     justify-content: space-between;
     display: flex;
     width: 800px;
@@ -35,13 +36,12 @@
     margin: 0px auto;
     padding: 0px 30px;
 }
-.video {
-    width: 300px;
-    height: 200px;
-    margin: 30px auto;
-    display: block;
-}
+
 .tiltePoznan {
     font-size: 80px;
     margin: 0px;
+}
+
+.poznan-goats {
+    text-align: center;
 }
